@@ -16,3 +16,7 @@ tests/semaphore.h
 tests/benchlib.o
 tests/SIZES.*
 tests/*.log
+*.VC.db
+*.VC.opendb
+/.vs/
+/build.msvc/

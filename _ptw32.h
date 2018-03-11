@@ -39,6 +39,10 @@
 #ifndef __PTW32_H
 #define __PTW32_H
 
+#if defined(PTW32_BUILD) && !defined(PTW32_STATIC_LIB) && !defined(_WINDLL)
+#define PTW32_STATIC_LIB
+#endif
+
 /* See the README file for an explanation of the pthreads-win32
  * version numbering scheme and how the DLL is named etc.
  *
